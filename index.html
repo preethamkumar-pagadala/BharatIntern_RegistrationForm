@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Create a New Account</h1>
+    <p>It's quick and easy.</p>
+    <div class="form-container">
+      <form id="registrationForm">
+        <div class="form-group">
+          <input type="text" id="firstName" name="firstName" required>
+          <label for="firstName">First Name</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="surname" name="surname" required>
+          <label for="surname">Surname</label>
+        </div>
+        <div class="form-group">
+          <input type="text" id="emailOrMobile" name="emailOrMobile" required>
+          <label for="emailOrMobile">Mobile Number or Email Address</label>
+        </div>
+        <div class="form-group">
+          <input type="password" id="password" name="password" required>
+          <label for="password">New Password</label>
+        </div>
+        <div class="form-group">
+          <input type="date" id="dob" name="dob" required>
+          <label for="dob">Date of Birth</label>
+        </div>
+        <div class="form-group">
+          <select id="gender" name="gender" required>
+            <option value="">Select Gender</option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+          </select>
+          
+        </div>
+        <div class="agreement">
+          <p>People who use our service may have uploaded your contact information. <a href="learn.html">Learn more</a>.</p>
+          
+          <p>By clicking <strong>Sign Up</strong>, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a>, and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+        </div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+
+    
+
+<p id="confirmationMessage" class="hidden">Thank you for registering!</p> <!-- Hidden by default -->
+    <p>Already have an account? <a href="#">Log in</a>.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
