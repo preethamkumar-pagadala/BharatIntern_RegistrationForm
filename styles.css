@@ -1,0 +1,111 @@
+body {
+    background-color: #8c9df0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    position: relative;
+    margin-bottom: 25px; /* Increased margin for better spacing */
+  }
+  
+  input,
+  select {
+    width: calc(100% - 22px); /* Adjusted width to accommodate label positioning */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  label {
+    position: absolute;
+    top: 14px;
+    left: 15px;
+    font-size: 0.9em;
+    color: #666;
+    pointer-events: none;
+    transition: 0.3s;
+  }
+  
+  input:focus + label,
+  input:not(:placeholder-shown) + label {
+    top: -12px;
+    left: 10px;
+    font-size: 0.8em;
+    color: #4f86f7;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f86f7;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3b5998;
+  }
+  
+  .agreement {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .agreement p {
+    margin-bottom: 10px;
+  }
+  
+  .agreement a {
+    color: #4f86f7;
+    text-decoration: none;
+  }
+  
+  .agreement a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Existing CSS styles remain unchanged */
+
+.hidden {
+    display: none;
+  }
+
+  /* Existing CSS styles remain unchanged */
+
+.hidden {
+    display: none;
+  }
+  
